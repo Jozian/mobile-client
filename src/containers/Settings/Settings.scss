@@ -1,0 +1,26 @@
+@import '../../common';
+
+.settings {
+  label {
+    margin-top: 20px;
+    display: block;
+  }
+
+  input, select {
+    width: 90%;
+    max-width: 500px;
+  }
+}
+
+.content {
+  margin: 0 5%;
+  padding-left: 50px;
+}
+
+.valid {
+  outline: solid $green 3px;
+}
+
+.invalid {
+  outline: solid $red 3px;
+}

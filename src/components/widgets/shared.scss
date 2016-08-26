@@ -1,0 +1,14 @@
+@import '../../common';
+
+.invalid {
+  outline: solid $red 2px;
+}
+
+.valid {
+  outline: solid $green 2px;
+}
+
+.messages {
+  margin-bottom: 10px;
+  color: $red;
+}

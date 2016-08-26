@@ -1,0 +1,1 @@
+MainPackage=C:\Users\xanf\Documents\projects\MicrosoftDataGathering2\win81.WindowsPhone\bin\Release\MDG.win81.WindowsPhone_8.0.2.0_AnyCPU.appx

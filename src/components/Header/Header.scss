@@ -1,0 +1,32 @@
+$fullHeight: 100px;
+$headerHeight: 50px;
+
+.header {
+  margin: 2% 5% 0 5%;
+  height: $headerHeight;
+  line-height: $headerHeight;
+  font-size: 36px;
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.title {
+  border-bottom: solid gray 1px;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.back {
+  height: 50px;
+  flex-shrink: 0;
+  line-height: 50px;
+  margin-right: 5px;
+  span:global(.win-back) {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,65 @@
+@import '../../common';
+html {
+  font-family: "Segoe UI";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:global(#content) {
+    height: 100vh;
+    :global(.win-appbar) {
+      position: static;
+    }
+}
+
+:global(.win-appbar .win-commandingsurface .win-commandingsurface-actionarea) {
+  background-color: $blue;
+  :global(.win-commandimage) {
+    color: white !important;
+  }
+  :global(.win-label) {
+    color: white;
+  }
+}
+
+:global(body .win-pivot .win-pivot-headers .win-pivot-header) {
+    font-weight: bold;
+    font-size: 28px;
+    color: $red;
+    text-transform: uppercase;
+    opacity: 0.5;
+    &:hover:active {
+      font-weight: bold;
+      font-size: 28px;
+      color: $red;
+      opacity: 0.5;
+    }
+
+    &:global(.win-pivot-header-selected) {
+      color: $red;
+      opacity: 1;
+    }
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  // FIXME:
+  flex-grow: 1;
+  min-height: 0;
+  height: 0;
+}
+
+:global(#prompt input) {
+  width: 95%;
+}
+
+:global(.win-commandingsurface .win-commandingsurface-actionarea .win-commandingsurface-spacer) {
+  height: 60px !important;
+}

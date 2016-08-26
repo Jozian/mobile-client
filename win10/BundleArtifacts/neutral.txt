@@ -1,0 +1,2 @@
+MainPackage=C:\Users\xanf\Documents\projects\MicrosoftDataGathering2\win10\bin\Release\MDG.win10_10.0.2.0_AnyCPU.appx
+ResourcePack=C:\Users\xanf\Documents\projects\MicrosoftDataGathering2\win10\bin\Release\MDG.win10_10.0.2.0_scale-400.appx

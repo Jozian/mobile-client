@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferenceCachePath>C:\Users\xanf\AppData\Local\Temp\win81.WindowsPhone_refcache</ReferenceCachePath>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>AppHostDeviceDebugger</DebuggerFlavor>
+    <WindowsPhoneEmulatorID>BC33F59A-75C2-482D-A3EB-5B80CD5F0DDE;Emulator 8.1 U1 WVGA 4 inch 512MB</WindowsPhoneEmulatorID>
+  </PropertyGroup>
+</Project>

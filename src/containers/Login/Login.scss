@@ -1,0 +1,32 @@
+$margin: 50px;
+.root {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 420px;
+  transform: translateX(-50%) translateY(-60%);
+  text-align: center;
+
+  img {
+    margin: 10px;
+    display: inline-block;
+
+  }
+
+  .input {
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    font-size: 15px;
+    height: 40px;
+    width: calc(100% - #{$margin * 2});
+    margin: 10px $margin;
+  }
+
+  .checkbox {
+    margin: 0 $margin;
+
+  }
+
+}

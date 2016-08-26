@@ -1,0 +1,52 @@
+@import '../../common';
+
+@keyframes animate {
+  0%   {left: -100%;}
+  100%  {left: 0%;}
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  height: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.wrapper {
+  height: 100%;
+  width: 200%;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+.inProgress .wrapper {
+  animation-name: animate;
+}
+
+.part {
+  width: 12.5%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.part1 {
+  background-color: $red;
+}
+
+.part2{
+  background-color: $green;
+}
+
+.part3{
+  background-color: $blue;
+}
+
+.part4 {
+  background-color: $yellow;
+}

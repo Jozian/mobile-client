@@ -1,0 +1,62 @@
+@import '../../common';
+
+.result {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  label {
+    display: block;
+    span {
+      display: block;
+    }
+  }
+
+  input:not([type="radio"]):not([type="checkbox"]) {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+  }
+
+  img {
+    width: 90%;
+    padding-bottom: 5px;
+  }
+
+  :global(.win-dropdown) {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+  }
+
+  [disabled] {
+    background-color: lightgray;
+  }
+}
+
+
+
+.content {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  padding-left: 50px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  flex-grow: 1;
+  overflow: auto;
+}

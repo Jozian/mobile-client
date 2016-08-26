@@ -1,0 +1,85 @@
+@import '../../common';
+
+
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  img {
+    margin: 40px 0 40px 40px;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.pivot {
+  height: 100%;
+}
+
+.surveyListItem {
+  height: 64px;
+  width: 320px;
+  border: solid $blue 1px;
+  padding: 2px;
+}
+
+.surveyTitle, .resultRow {
+  font-size: 20px;
+  color: rgb(64, 64, 65);
+  line-height: 30px;
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resultRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.resultTitle {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.resultTime {
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+
+  text-overflow: ellipsis;
+
+}
+
+.time, .resultSurveyTitle {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.newSurveyName {
+  width: 100%;
+}
+
+
+@media (max-width: 600px) {
+  .header {
+    img {
+      margin: 5px 0 5px 15px;
+      height: 50px;
+    }
+  }
+}
